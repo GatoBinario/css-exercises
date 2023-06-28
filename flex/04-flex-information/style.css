@@ -5,6 +5,7 @@ body {
 img {
   width: 100px;
   height: 100px;
+  padding: 14px;
 }
 
 .title {
@@ -23,4 +24,32 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.container {
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.container.main {
+  background-color: rgb(238, 238, 238);
+
+}
+
+.container.plants {
+  background-color: rgb(255, 255, 213);
+  flex-direction: row;
+  gap: 20px;
+}
+
+.container.plant {
+  background-color: rgb(255, 225, 170);
+  justify-content: center;
+  align-items: center;
+}
+
+text.container.plant {
+  color: red;
 }
