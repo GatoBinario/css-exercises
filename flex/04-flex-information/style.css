@@ -33,25 +33,21 @@ img {
   
 }
 
-.container.main {
-  background-color: rgb(238, 238, 238);
-
-}
-
 .container.plants {
-  background-color: rgb(255, 255, 213);
+
   flex-direction: row;
   justify-content: center;
-  gap: 20px;
+  gap: 42px;
 }
 
 .container.plant {
-  background-color: rgb(255, 225, 170);
+
   justify-content: center;
   align-items: center;
   flex-basis: 200px;
 }
 
-.container.plant div {
-  color: rgb(255, 0, 0); 
+.container .plant .text {
+
+  text-align: center;
 }
