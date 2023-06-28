@@ -41,6 +41,7 @@ img {
 .container.plants {
   background-color: rgb(255, 255, 213);
   flex-direction: row;
+  justify-content: center;
   gap: 20px;
 }
 
@@ -48,8 +49,10 @@ img {
   background-color: rgb(255, 225, 170);
   justify-content: center;
   align-items: center;
+  flex-basis: 200px;
 }
 
-text.container.plant {
-  color: red;
+.container.plant div {
+  color: rgb(255, 0, 0);
+  
 }
