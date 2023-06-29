@@ -33,7 +33,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 8px 0px px;
+  min-width: 42px;
+  min-height: 42px;
+  padding: 8px;
 }
 
 .close-button {
@@ -58,6 +60,10 @@ body {
 .header {
   font-size: large;
   font-weight: bold;
+}
+
+.container.message {
+  flex-direction: column;
 }
 
 button {
